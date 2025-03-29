@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_Form</title>
+</head>
+<style>
+    
+    
+</style>
+<body>
+    <form action="netflix.html" style="text-align: center; font-family:'Courier New', Courier, monospace; font-weight: bold;">
+        <fieldset>
+            <h1>PAYMENT FORM</h1>
+            <hr>
+            <h3>REQUIRED FIELDS ARE FOLLOWED BY</h3>
+            <h2>CONTACT INFORMATION</h2><hr>
+
+            <label for="name">NAME</label>
+            <input type="text"id="name" placeholder="Enter the name" required><br><br>
+            <fieldset>
+            <legend>GENDER</legend required>
+
+            <div>
+                MALE
+                <input type="radio" id="gender" name="gen" required>
+                FEMALE
+                <input type="radio" id="gender" name="gen" required>
+            </div>
+            </fieldset><br>
+
+            <label for="add">ADDRESS</label>
+            <textarea name="duk" id="add" rows="10" cols="30"></textarea><br><br>
+
+
+            <label for="email">  EMAIL  </label>
+            <input type="email" id="email" required><br><br>
+
+
+            <label for="pin">PINCODE</label>
+            <input type="tel" max="8" min="6" required><br><br>
+
+
+            <h2>PAYMENT INFORMATION</h2>
+
+            <label for="crd">CARDTYPE</label>
+            <select name="" id="crd">
+            <option value="MSD CRD">MASTER CARD</option>
+            <option value="r pay">RU PAY</option>
+            
+            <option value="visa">VISA</option>
+            </select><br><br>
+
+
+            <Label for="date">EXPIRATION DATE</Label>
+            <input type="date"  max="2027-01-01"  min="1999-01-01"/><br> <br>
+
+
+            <label for="cvv">CVV
+                <input type="tel" placeholder="CVV" required>
+            </label><br><br>
+            
+            <input type="submit" value="PAY NOW" >
+
+        
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
